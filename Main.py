@@ -12,7 +12,13 @@ Features:
 - Future price predictions
 
 Dependencies:
-pip install yfinance pandas numpy matplotlib seaborn scikit-learn tensorflow plotly
+pip install yfinance pandas numpy matplotlib seaborn scikit-learn
+
+Optional (for LSTM):
+pip install tensorflow
+
+Optional (for interactive plots):
+pip install plotly
 """
 
 import yfinance as yf
